@@ -8,23 +8,117 @@
 
 /* Begin PBXBuildFile section */
 		1F263D2B18E76B650029FCAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D2A18E76B650029FCAC /* Foundation.framework */; };
-		1F263D3018E76B650029FCAC /* InspectorGadget.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F263D2F18E76B650029FCAC /* InspectorGadget.h */; };
-		1F263D3218E76B650029FCAC /* InspectorGadget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F263D3118E76B650029FCAC /* InspectorGadget.m */; };
-		1F263D3918E76B650029FCAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D3818E76B650029FCAC /* XCTest.framework */; };
-		1F263D3A18E76B650029FCAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D2A18E76B650029FCAC /* Foundation.framework */; };
-		1F263D3C18E76B650029FCAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D3B18E76B650029FCAC /* UIKit.framework */; };
-		1F263D3F18E76B650029FCAC /* libInspectorGadget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D2718E76B650029FCAC /* libInspectorGadget.a */; };
-		1F263D4518E76B650029FCAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F263D4318E76B650029FCAC /* InfoPlist.strings */; };
-		1F263D4718E76B650029FCAC /* InspectorGadgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F263D4618E76B650029FCAC /* InspectorGadgetTests.m */; };
+		1F263D5518E76B850029FCAC /* IGClassInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F263D5218E76B850029FCAC /* IGClassInspector.m */; };
+		1F263D5618E76B850029FCAC /* IGProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F263D5418E76B850029FCAC /* IGProperty.m */; };
+		1F263D5C18E772910029FCAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D3B18E76B650029FCAC /* UIKit.framework */; };
+		1F263D5D18E772910029FCAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D2A18E76B650029FCAC /* Foundation.framework */; };
+		1F263D5F18E772910029FCAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D5E18E772910029FCAC /* CoreGraphics.framework */; };
+		1F263D6518E772910029FCAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F263D6318E772910029FCAC /* InfoPlist.strings */; };
+		1F263D6718E772910029FCAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F263D6618E772910029FCAC /* main.m */; };
+		1F263D7218E7733D0029FCAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F263D7118E7733D0029FCAC /* Default-568h@2x.png */; };
+		1F263D7818E773AC0029FCAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D2A18E76B650029FCAC /* Foundation.framework */; };
+		1F263D8018E773AD0029FCAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F263D7F18E773AD0029FCAC /* main.m */; };
+		1F263D9C18E7765C0029FCAC /* IGPropertySpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F263D9B18E7765C0029FCAC /* IGPropertySpec.mm */; };
+		1F263D9D18E7765C0029FCAC /* IGPropertySpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F263D9B18E7765C0029FCAC /* IGPropertySpec.mm */; };
+		1F263DC318E77C2E0029FCAC /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263DAE18E77C120029FCAC /* Cedar.framework */; };
+		1F263DC618E77C390029FCAC /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263DB418E77C120029FCAC /* libCedar-StaticLib.a */; };
+		1F263DCF18E79F270029FCAC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263DCE18E79F270029FCAC /* SenTestingKit.framework */; };
+		1F263DD018E79F270029FCAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D2A18E76B650029FCAC /* Foundation.framework */; };
+		1F263DD118E79F270029FCAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F263D3B18E76B650029FCAC /* UIKit.framework */; };
+		1F263DE018E79F3E0029FCAC /* placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F263DC718E77DB80029FCAC /* placeholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F263D3D18E76B650029FCAC /* PBXContainerItemProxy */ = {
+		1F263DAD18E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE1FB611DC271300029872;
+			remoteInfo = Cedar;
+		};
+		1F263DAF18E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE218611DC28E200029872;
+			remoteInfo = Specs;
+		};
+		1F263DB118E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A07F0813F276640021974D;
+			remoteInfo = FocusedSpecs;
+		};
+		1F263DB318E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE222911DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
+		1F263DB518E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE227611DC2CF900029872;
+			remoteInfo = iOSSpecs;
+		};
+		1F263DB718E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE02E7E4184EABCD00414F19;
+			remoteInfo = iOSFrameworkSpecs;
+		};
+		1F263DB918E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5F9F6144A81A7000A6A5D;
+			remoteInfo = OCUnitApp;
+		};
+		1F263DBB18E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5FA11144A81A8000A6A5D;
+			remoteInfo = OCUnitAppTests;
+		};
+		1F263DBD18E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F45A3DD180E4796003C1E36;
+			remoteInfo = XCUnitAppTests;
+		};
+		1F263DBF18E77C120029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96158A86144A915E005895CE;
+			remoteInfo = OCUnitAppLogicTests;
+		};
+		1F263DC118E77C270029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEE1FB511DC271300029872;
+			remoteInfo = Cedar;
+		};
+		1F263DC418E77C340029FCAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEE222811DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
+		1F263DDB18E79F270029FCAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F263D1F18E76B650029FCAC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1F263D2618E76B650029FCAC;
-			remoteInfo = InspectorGadget;
+			remoteGlobalIDString = 1F263D5A18E772910029FCAC;
+			remoteInfo = Specs;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,7 +129,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				1F263D3018E76B650029FCAC /* InspectorGadget.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +138,27 @@
 		1F263D2718E76B650029FCAC /* libInspectorGadget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInspectorGadget.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F263D2A18E76B650029FCAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F263D2E18E76B650029FCAC /* InspectorGadget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InspectorGadget-Prefix.pch"; sourceTree = "<group>"; };
-		1F263D2F18E76B650029FCAC /* InspectorGadget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InspectorGadget.h; sourceTree = "<group>"; };
-		1F263D3118E76B650029FCAC /* InspectorGadget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InspectorGadget.m; sourceTree = "<group>"; };
-		1F263D3718E76B650029FCAC /* InspectorGadgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspectorGadgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F263D3818E76B650029FCAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1F263D3B18E76B650029FCAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1F263D4218E76B650029FCAC /* InspectorGadgetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InspectorGadgetTests-Info.plist"; sourceTree = "<group>"; };
-		1F263D4418E76B650029FCAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F263D4618E76B650029FCAC /* InspectorGadgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InspectorGadgetTests.m; sourceTree = "<group>"; };
+		1F263D5118E76B850029FCAC /* IGClassInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGClassInspector.h; sourceTree = "<group>"; };
+		1F263D5218E76B850029FCAC /* IGClassInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGClassInspector.m; sourceTree = "<group>"; };
+		1F263D5318E76B850029FCAC /* IGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGProperty.h; sourceTree = "<group>"; };
+		1F263D5418E76B850029FCAC /* IGProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGProperty.m; sourceTree = "<group>"; };
+		1F263D5B18E772910029FCAC /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F263D5E18E772910029FCAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F263D6218E772910029FCAC /* InspectorGadgetSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InspectorGadgetSpecs-Info.plist"; sourceTree = "<group>"; };
+		1F263D6418E772910029FCAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F263D6618E772910029FCAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F263D6818E772910029FCAC /* InspectorGadgetSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InspectorGadgetSpecs-Prefix.pch"; sourceTree = "<group>"; };
+		1F263D7118E7733D0029FCAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1F263D7718E773AC0029FCAC /* OSXSpecs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OSXSpecs; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F263D7C18E773AC0029FCAC /* InspectorGadgetOSXSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InspectorGadgetOSXSpecs-Prefix.pch"; sourceTree = "<group>"; };
+		1F263D7F18E773AD0029FCAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F263D9B18E7765C0029FCAC /* IGPropertySpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IGPropertySpec.mm; sourceTree = "<group>"; };
+		1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
+		1F263DC718E77DB80029FCAC /* placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = placeholder.m; sourceTree = "<group>"; };
+		1F263DCD18E79F270029FCAC /* InspectorGadgetSpecs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspectorGadgetSpecs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F263DCE18E79F270029FCAC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +170,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F263D3418E76B650029FCAC /* Frameworks */ = {
+		1F263D5818E772910029FCAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F263D3918E76B650029FCAC /* XCTest.framework in Frameworks */,
-				1F263D3F18E76B650029FCAC /* libInspectorGadget.a in Frameworks */,
-				1F263D3C18E76B650029FCAC /* UIKit.framework in Frameworks */,
-				1F263D3A18E76B650029FCAC /* Foundation.framework in Frameworks */,
+				1F263DC618E77C390029FCAC /* libCedar-StaticLib.a in Frameworks */,
+				1F263D5F18E772910029FCAC /* CoreGraphics.framework in Frameworks */,
+				1F263D5C18E772910029FCAC /* UIKit.framework in Frameworks */,
+				1F263D5D18E772910029FCAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F263D7518E773AC0029FCAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F263DC318E77C2E0029FCAC /* Cedar.framework in Frameworks */,
+				1F263D7818E773AC0029FCAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F263DCA18E79F270029FCAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F263DCF18E79F270029FCAC /* SenTestingKit.framework in Frameworks */,
+				1F263DD118E79F270029FCAC /* UIKit.framework in Frameworks */,
+				1F263DD018E79F270029FCAC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +206,11 @@
 		1F263D1E18E76B650029FCAC = {
 			isa = PBXGroup;
 			children = (
+				1F263D9E18E77BFC0029FCAC /* Externals */,
+				1F263D7118E7733D0029FCAC /* Default-568h@2x.png */,
 				1F263D2C18E76B650029FCAC /* InspectorGadget */,
-				1F263D4018E76B650029FCAC /* InspectorGadgetTests */,
+				1F263D6018E772910029FCAC /* Specs */,
+				1F263D7918E773AC0029FCAC /* OSXSpecs */,
 				1F263D2918E76B650029FCAC /* Frameworks */,
 				1F263D2818E76B650029FCAC /* Products */,
 			);
@@ -92,7 +220,9 @@
 			isa = PBXGroup;
 			children = (
 				1F263D2718E76B650029FCAC /* libInspectorGadget.a */,
-				1F263D3718E76B650029FCAC /* InspectorGadgetTests.xctest */,
+				1F263D5B18E772910029FCAC /* Specs.app */,
+				1F263D7718E773AC0029FCAC /* OSXSpecs */,
+				1F263DCD18E79F270029FCAC /* InspectorGadgetSpecs.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +233,8 @@
 				1F263D2A18E76B650029FCAC /* Foundation.framework */,
 				1F263D3818E76B650029FCAC /* XCTest.framework */,
 				1F263D3B18E76B650029FCAC /* UIKit.framework */,
+				1F263D5E18E772910029FCAC /* CoreGraphics.framework */,
+				1F263DCE18E79F270029FCAC /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,8 +242,10 @@
 		1F263D2C18E76B650029FCAC /* InspectorGadget */ = {
 			isa = PBXGroup;
 			children = (
-				1F263D2F18E76B650029FCAC /* InspectorGadget.h */,
-				1F263D3118E76B650029FCAC /* InspectorGadget.m */,
+				1F263D5118E76B850029FCAC /* IGClassInspector.h */,
+				1F263D5218E76B850029FCAC /* IGClassInspector.m */,
+				1F263D5318E76B850029FCAC /* IGProperty.h */,
+				1F263D5418E76B850029FCAC /* IGProperty.m */,
 				1F263D2D18E76B650029FCAC /* Supporting Files */,
 			);
 			path = InspectorGadget;
@@ -125,22 +259,67 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1F263D4018E76B650029FCAC /* InspectorGadgetTests */ = {
+		1F263D6018E772910029FCAC /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				1F263D4618E76B650029FCAC /* InspectorGadgetTests.m */,
-				1F263D4118E76B650029FCAC /* Supporting Files */,
+				1F263D6118E772910029FCAC /* Supporting Files */,
+				1F263D9B18E7765C0029FCAC /* IGPropertySpec.mm */,
 			);
-			path = InspectorGadgetTests;
+			path = Specs;
 			sourceTree = "<group>";
 		};
-		1F263D4118E76B650029FCAC /* Supporting Files */ = {
+		1F263D6118E772910029FCAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F263D4218E76B650029FCAC /* InspectorGadgetTests-Info.plist */,
-				1F263D4318E76B650029FCAC /* InfoPlist.strings */,
+				1F263D6218E772910029FCAC /* InspectorGadgetSpecs-Info.plist */,
+				1F263D6318E772910029FCAC /* InfoPlist.strings */,
+				1F263D6618E772910029FCAC /* main.m */,
+				1F263D6818E772910029FCAC /* InspectorGadgetSpecs-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F263D7918E773AC0029FCAC /* OSXSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				1F263D7F18E773AD0029FCAC /* main.m */,
+				1F263DC718E77DB80029FCAC /* placeholder.m */,
+				1F263D7B18E773AC0029FCAC /* Supporting Files */,
+			);
+			path = OSXSpecs;
+			sourceTree = "<group>";
+		};
+		1F263D7B18E773AC0029FCAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F263D7C18E773AC0029FCAC /* InspectorGadgetOSXSpecs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F263D9E18E77BFC0029FCAC /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		1F263DA018E77C110029FCAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F263DAE18E77C120029FCAC /* Cedar.framework */,
+				1F263DB018E77C120029FCAC /* Specs */,
+				1F263DB218E77C120029FCAC /* FocusedSpecs */,
+				1F263DB418E77C120029FCAC /* libCedar-StaticLib.a */,
+				1F263DB618E77C120029FCAC /* iOSSpecs.app */,
+				1F263DB818E77C120029FCAC /* iOSFrameworkSpecs.app */,
+				1F263DBA18E77C120029FCAC /* OCUnitApp.app */,
+				1F263DBC18E77C120029FCAC /* OCUnitAppTests.octest */,
+				1F263DBE18E77C120029FCAC /* XCUnitAppTests.xctest */,
+				1F263DC018E77C120029FCAC /* OCUnitAppLogicTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,23 +342,58 @@
 			productReference = 1F263D2718E76B650029FCAC /* libInspectorGadget.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		1F263D3618E76B650029FCAC /* InspectorGadgetTests */ = {
+		1F263D5A18E772910029FCAC /* Specs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F263D4D18E76B650029FCAC /* Build configuration list for PBXNativeTarget "InspectorGadgetTests" */;
+			buildConfigurationList = 1F263D7018E772920029FCAC /* Build configuration list for PBXNativeTarget "Specs" */;
 			buildPhases = (
-				1F263D3318E76B650029FCAC /* Sources */,
-				1F263D3418E76B650029FCAC /* Frameworks */,
-				1F263D3518E76B650029FCAC /* Resources */,
+				1F263D5718E772910029FCAC /* Sources */,
+				1F263D5818E772910029FCAC /* Frameworks */,
+				1F263D5918E772910029FCAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F263D3E18E76B650029FCAC /* PBXTargetDependency */,
+				1F263DC518E77C340029FCAC /* PBXTargetDependency */,
 			);
-			name = InspectorGadgetTests;
-			productName = InspectorGadgetTests;
-			productReference = 1F263D3718E76B650029FCAC /* InspectorGadgetTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = Specs;
+			productName = InspectorGadgetSpecs;
+			productReference = 1F263D5B18E772910029FCAC /* Specs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F263D7618E773AC0029FCAC /* OSXSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F263D8318E773AD0029FCAC /* Build configuration list for PBXNativeTarget "OSXSpecs" */;
+			buildPhases = (
+				1F263D7418E773AC0029FCAC /* Sources */,
+				1F263D7518E773AC0029FCAC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F263DC218E77C270029FCAC /* PBXTargetDependency */,
+			);
+			name = OSXSpecs;
+			productName = InspectorGadgetOSXSpecs;
+			productReference = 1F263D7718E773AC0029FCAC /* OSXSpecs */;
+			productType = "com.apple.product-type.tool";
+		};
+		1F263DCC18E79F270029FCAC /* InspectorGadgetSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F263DDD18E79F270029FCAC /* Build configuration list for PBXNativeTarget "InspectorGadgetSpecs" */;
+			buildPhases = (
+				1F263DC918E79F270029FCAC /* Sources */,
+				1F263DCA18E79F270029FCAC /* Frameworks */,
+				1F263DCB18E79F270029FCAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F263DDC18E79F270029FCAC /* PBXTargetDependency */,
+			);
+			name = InspectorGadgetSpecs;
+			productName = InspectorGadgetSpecs;
+			productReference = 1F263DCD18E79F270029FCAC /* InspectorGadgetSpecs.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -187,8 +401,14 @@
 		1F263D1F18E76B650029FCAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IG;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jeff Hui";
+				TargetAttributes = {
+					1F263DCC18E79F270029FCAC = {
+						TestTargetID = 1F263D5A18E772910029FCAC;
+					};
+				};
 			};
 			buildConfigurationList = 1F263D2218E76B650029FCAC /* Build configuration list for PBXProject "InspectorGadget" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -200,20 +420,109 @@
 			mainGroup = 1F263D1E18E76B650029FCAC;
 			productRefGroup = 1F263D2818E76B650029FCAC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1F263DA018E77C110029FCAC /* Products */;
+					ProjectRef = 1F263D9F18E77C110029FCAC /* Cedar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1F263D2618E76B650029FCAC /* InspectorGadget */,
-				1F263D3618E76B650029FCAC /* InspectorGadgetTests */,
+				1F263D5A18E772910029FCAC /* Specs */,
+				1F263D7618E773AC0029FCAC /* OSXSpecs */,
+				1F263DCC18E79F270029FCAC /* InspectorGadgetSpecs */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		1F263DAE18E77C120029FCAC /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 1F263DAD18E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F263DB018E77C120029FCAC /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = 1F263DAF18E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F263DB218E77C120029FCAC /* FocusedSpecs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FocusedSpecs;
+			remoteRef = 1F263DB118E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F263DB418E77C120029FCAC /* libCedar-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCedar-StaticLib.a";
+			remoteRef = 1F263DB318E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F263DB618E77C120029FCAC /* iOSSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSSpecs.app;
+			remoteRef = 1F263DB518E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F263DB818E77C120029FCAC /* iOSFrameworkSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSFrameworkSpecs.app;
+			remoteRef = 1F263DB718E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F263DBA18E77C120029FCAC /* OCUnitApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OCUnitApp.app;
+			remoteRef = 1F263DB918E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F263DBC18E77C120029FCAC /* OCUnitAppTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppTests.octest;
+			remoteRef = 1F263DBB18E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F263DBE18E77C120029FCAC /* XCUnitAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XCUnitAppTests.xctest;
+			remoteRef = 1F263DBD18E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F263DC018E77C120029FCAC /* OCUnitAppLogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppLogicTests.octest;
+			remoteRef = 1F263DBF18E77C120029FCAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		1F263D3518E76B650029FCAC /* Resources */ = {
+		1F263D5918E772910029FCAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F263D4518E76B650029FCAC /* InfoPlist.strings in Resources */,
+				1F263D6518E772910029FCAC /* InfoPlist.strings in Resources */,
+				1F263D7218E7733D0029FCAC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F263DCB18E79F270029FCAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,33 +533,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F263D3218E76B650029FCAC /* InspectorGadget.m in Sources */,
+				1F263D5618E76B850029FCAC /* IGProperty.m in Sources */,
+				1F263D5518E76B850029FCAC /* IGClassInspector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F263D3318E76B650029FCAC /* Sources */ = {
+		1F263D5718E772910029FCAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F263D4718E76B650029FCAC /* InspectorGadgetTests.m in Sources */,
+				1F263D6718E772910029FCAC /* main.m in Sources */,
+				1F263D9C18E7765C0029FCAC /* IGPropertySpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F263D7418E773AC0029FCAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F263D8018E773AD0029FCAC /* main.m in Sources */,
+				1F263D9D18E7765C0029FCAC /* IGPropertySpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F263DC918E79F270029FCAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F263DE018E79F3E0029FCAC /* placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F263D3E18E76B650029FCAC /* PBXTargetDependency */ = {
+		1F263DC218E77C270029FCAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F263D2618E76B650029FCAC /* InspectorGadget */;
-			targetProxy = 1F263D3D18E76B650029FCAC /* PBXContainerItemProxy */;
+			name = Cedar;
+			targetProxy = 1F263DC118E77C270029FCAC /* PBXContainerItemProxy */;
+		};
+		1F263DC518E77C340029FCAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cedar-StaticLib";
+			targetProxy = 1F263DC418E77C340029FCAC /* PBXContainerItemProxy */;
+		};
+		1F263DDC18E79F270029FCAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F263D5A18E772910029FCAC /* Specs */;
+			targetProxy = 1F263DDB18E79F270029FCAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F263D4318E76B650029FCAC /* InfoPlist.strings */ = {
+		1F263D6318E772910029FCAC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F263D4418E76B650029FCAC /* en */,
+				1F263D6418E772910029FCAC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -268,10 +606,14 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -283,14 +625,18 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SHADOW = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -305,22 +651,30 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SHADOW = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -350,39 +704,137 @@
 			};
 			name = Release;
 		};
-		1F263D4E18E76B650029FCAC /* Debug */ = {
+		1F263D6E18E772920029FCAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "InspectorGadget/InspectorGadget-Prefix.pch";
+				GCC_PREFIX_HEADER = "Specs/InspectorGadgetSpecs-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "InspectorGadgetTests/InspectorGadgetTests-Info.plist";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Externals/cedar/Source/Headers/**",
+				);
+				INFOPLIST_FILE = "Specs/InspectorGadgetSpecs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		1F263D4F18E76B650029FCAC /* Release */ = {
+		1F263D6F18E772920029FCAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/InspectorGadgetSpecs-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Externals/cedar/Source/Headers/**",
+				);
+				INFOPLIST_FILE = "Specs/InspectorGadgetSpecs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F263D8418E773AD0029FCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXSpecs/InspectorGadgetOSXSpecs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Externals/cedar/Source/Headers/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F263D8518E773AD0029FCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXSpecs/InspectorGadgetOSXSpecs-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Externals/cedar/Source/Headers/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F263DDE18E79F270029FCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Specs.app/Specs";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "InspectorGadget/InspectorGadget-Prefix.pch";
-				INFOPLIST_FILE = "InspectorGadgetTests/InspectorGadgetTests-Info.plist";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1F263DDF18E79F270029FCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Specs.app/Specs";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -405,12 +857,29 @@
 				1F263D4C18E76B650029FCAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1F263D4D18E76B650029FCAC /* Build configuration list for PBXNativeTarget "InspectorGadgetTests" */ = {
+		1F263D7018E772920029FCAC /* Build configuration list for PBXNativeTarget "Specs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F263D4E18E76B650029FCAC /* Debug */,
-				1F263D4F18E76B650029FCAC /* Release */,
+				1F263D6E18E772920029FCAC /* Debug */,
+				1F263D6F18E772920029FCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F263D8318E773AD0029FCAC /* Build configuration list for PBXNativeTarget "OSXSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F263D8418E773AD0029FCAC /* Debug */,
+				1F263D8518E773AD0029FCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F263DDD18E79F270029FCAC /* Build configuration list for PBXNativeTarget "InspectorGadgetSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F263DDE18E79F270029FCAC /* Debug */,
+				1F263DDF18E79F270029FCAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
